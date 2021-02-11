@@ -18,8 +18,8 @@ export class UserController {
       try {
 
          const input: UserInputDTO = {
-            email: req.body.email,
             name: req.body.name,
+            email: req.body.email,
             password: req.body.password,
             role: req.body.role
          }

@@ -22,8 +22,8 @@ export class UserBusiness {
 
       await this.userDatabase.createUser(
          id,
-         user.email,
          user.name,
+         user.email,
          hashPassword,
          user.role
       );
