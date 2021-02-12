@@ -14,7 +14,7 @@ export class UserDatabase extends BaseDatabase {
          user.password,
          User.stringToUserRole(user.role)
       );
-   }
+      }
 
    public async createUser(
       id: string,
